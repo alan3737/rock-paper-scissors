@@ -1,0 +1,72 @@
+body {
+    
+    display:flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction:column;
+    background-color: black;
+    padding:50px;
+    height:100vh;
+    gap:60px;
+}
+
+
+.logo img{
+    height:150px;
+    width:150px;
+    border-color:2px solid white;
+    
+}
+
+.title {
+    border:2px solid white;
+    font-size: 30px;
+    margin-top:20px;
+    color:white;
+    padding:10px;
+    border-radius:10px;
+    
+}
+.score {
+    display:flex;
+    gap:50px;
+    color:white;
+}
+
+.score .scr {
+    font-size:40px;
+}
+
+.choice {
+    display:flex;
+    gap:50px;
+    flex-grow:1;
+}
+
+.choice button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    height:200px;
+    width:125px;
+    gap:70px;
+}
+
+.choice img {
+    height:50px;
+    width:50px;
+}
+
+.authors {
+    width:100vh;
+    display:flex;
+    flex-direction: column;
+    background-color: darkgray;
+}
+
+.authors a{
+    color:black;
+    text-decoration: none;
+}
